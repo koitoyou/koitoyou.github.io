@@ -1,7 +1,7 @@
 # サイト基本情報
 title: My GitHub Pages Site
 description: Jekyll site hosted on GitHub Pages
-author: Your Name
+author: koito-you
 language: ja
 
 # URL 設定（重要）
@@ -13,7 +13,7 @@ markdown: kramdown
 theme: minima
 
 # パーマリンク設定
-permalink: /:categories/:year/:month/:day/:title/
+#permalink: /:categories/:year/:month/:day/:title/
 
 # 除外ファイル
 exclude:
@@ -25,8 +25,8 @@ exclude:
 
 # プラグイン（GitHub Pages 対応）
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+  #- jekyll-feed
+  #- jekyll-seo-tag
 
 # GitHub Pages 用設定
 github:
