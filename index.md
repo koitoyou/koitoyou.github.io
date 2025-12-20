@@ -2,9 +2,6 @@
 layout: default
 title: "Sample Title"
 date: 2025-01-01
-tags:
-  - jekyll
-  - github-pages
 ---
 
 # Jekyllのテスト
