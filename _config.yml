@@ -12,6 +12,14 @@ baseurl: ""                          # プロジェクトページなら "/repo-
 markdown: kramdown
 #theme: minima
 
+timezone: Asia/Tokyo
+lang: ja_JP
+
+kramdown:
+  input: GFM            # GitHub と同じ書き方で Markdown を解釈する
+  hard_wrap: false      # コードのシンタックスハイライト
+  syntax_highlighter: rouge
+  
 # パーマリンク設定
 #permalink: /:categories/:year/:month/:day/:title/
 
