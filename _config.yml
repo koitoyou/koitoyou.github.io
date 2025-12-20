@@ -10,7 +10,7 @@ baseurl: ""                          # プロジェクトページなら "/repo-
 
 # ビルド設定
 markdown: kramdown
-theme: minima
+#theme: minima
 
 # パーマリンク設定
 #permalink: /:categories/:year/:month/:day/:title/
