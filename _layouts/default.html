@@ -18,7 +18,7 @@
       {{ content }}     
     </div>
     <div class="container-xl px-3 my-1">
-      {% if page2.date %}
+      {% if page.date5 != nil %}
       {{ page.date | jsonify }}
         <p class="text-right">更新日: {{ page.date }}</p>
       {{% endif %}}
