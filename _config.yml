@@ -1,0 +1,33 @@
+# サイト基本情報
+title: My GitHub Pages Site
+description: Jekyll site hosted on GitHub Pages
+author: Your Name
+language: ja
+
+# URL 設定（重要）
+url: "https://koitoyou.github.io"   # ユーザーページの場合
+baseurl: ""                          # プロジェクトページなら "/repo-name"
+
+# ビルド設定
+markdown: kramdown
+theme: minima
+
+# パーマリンク設定
+permalink: /:categories/:year/:month/:day/:title/
+
+# 除外ファイル
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
+# プラグイン（GitHub Pages 対応）
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# GitHub Pages 用設定
+github:
+  is_project_page: false
