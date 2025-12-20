@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | My Document</title>
     <link rel="stylesheet" href="/assets/css/style.css?v=bb693baf4a326a355c68b32e358a66dbc5c53c22">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   </head>
   <body>
     <div class="container-xl px-3 my-1">
       <a href="/">TOP</a> |
-      <a href="/page1">page1</a> |
+      <a href="/dir1/">dir1</a> |
       <a href="/page2">page2</a>
     </div>
     <div class="container-xl px-3 my-5 markdown-body">
       {{ content }}     
     </div>
     <div class="container-xl px-3 my-1">
-      <p class="text-right">更新日: {{ page.date }}</p>
+      {{% if page.date %}}
+        <p class="text-right">更新日: {{ page.date }}</p>
+      {{% endif %}}
     </div>
   </body>
 </html>
