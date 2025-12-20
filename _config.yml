@@ -21,7 +21,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-  - README.md
+  #- README.md
 
 # プラグイン（GitHub Pages 対応）
 plugins:
