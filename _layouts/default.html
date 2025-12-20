@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/assets/css/style.css?v=bb693baf4a326a355c68b32e358a66dbc5c53c22">
   </head>
   <body>
-    <div class="container-xl">
+    <div class="container-xl px-3 my-1">
       <a href="/">TOP</a> |
       <a href="/page1">page1</a> |
       <a href="/page2">page2</a>
@@ -18,6 +18,9 @@
     </div>
     <div class="container-xl px-3 my-5 markdown-body">
       {{ content }}     
+    </div>
+    <div class="container-xl">
+      <p class="text-right">更新日: {{ page.date | date: "%Y-%m-%d" }}</p>
     </div>
   </body>
 </html>
