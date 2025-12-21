@@ -2,6 +2,7 @@
 layout: default
 title: "Sample Title"
 date: 2025-01-01
+mermaid: true
 ---
 
 # Jekyllのテスト
