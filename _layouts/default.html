@@ -21,4 +21,7 @@
       {% if page.date %}<p class="text-right">更新日: {{ page.date }}</p>{% endif %}
     </div>
   </body>
+  {% if page.mermaid == true %}
+  {% include _includes/mermaid.html %}
+  {% endif %}
 </html>
