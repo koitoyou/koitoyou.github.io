@@ -1,8 +1,10 @@
 title: My Site
 markdown: kramdown
+timezone: Asia/Tokyo
 
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
 
 exclude:
   - README.md
